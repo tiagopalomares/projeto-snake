@@ -7,10 +7,35 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script defer src="js/script.js"></script>
     <title>Snake Game</title>
-
+   <!-- Manifest 
+   <link rel="manifest" href="/manifest.json"> --->
 </head>
 <body>
-    <canvas id="snake" width="512" height="512"></canvas>
+        <!-- Install button, hidden by default 
+        <div id="installContainer" class="hidden">
+            <button id="butInstall" type="button">
+              Install
+            </button>
+          </div> --->
+      
+          <img id="snakegame" src="img/snake-icon.png" width="400">
+    <div id="divCanvas">
+        <canvas id="snake" width="485" height="485"></canvas>
+    </div>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix 
+          <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+          <script src="https://button.glitch.me/button.js"></script> --->
+    <div id="container">
+        <div id="divMenu">
+            <p>Status : <span id="status"></span></p>
+            <p>Level : <span id="level">1</span></p>
+            <p>Speed : <span id="speed">1</span></p>
+            <p>Score : <span id="score">0</span>&nbsp; Pontos</p>
+            <p>Space - Start / Pause</p>
+            <button id="restart">Restart</button> 
+         </div>
+    </div>
 </body>
 </html>
 

@@ -1,10 +1,65 @@
 body{
+    background-color: #222b0f;
+}
+
+#snakegame{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 200px;
+}
+
+
+#container{
+    position: absolute;
+    left: 220px;
+    top: 120px;
+    width: 115px;
+    height: 305px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+#divCanvas, #divMenu{
+    border: 2px solid #000000;
+    float: left;
+    text-align: center;
+    
+}
+ #divMenu{
+    background-color: #9cbc59 ;
+    padding: 20px;
+ }
+
+ #divMenu p{
+     text-align: left;
+ }
+
+ p #restart{
+    cursor: pointer;
+    text-align: left;
+    border: 10px solid;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+ }
+
+ p #restart :hover{
+     border: 1px solid rgba(200, 0, 0);
+     box-shadow: 0px, 0px, 10px rgba(100,0,0,0.5);
+     color: rgb(200,0,0);
+ }
+
+ #divCanvas{
+     margin: 20px;
+     margin-left: 350px;
+ } b 
+
+body{
     height: 95vh;
     width: 95vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    color: rgb(52, 165, 52);
+    background-color: #222b0f;
+    color: white;
 }
